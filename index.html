@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/planes.css">
     <link rel="stylesheet" href="css/sobre-nosotros.css">
     <link rel="stylesheet" href="css/contacto.css">
-
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
     <header class="head container">
@@ -54,7 +54,7 @@
             </li>
         </ul>
     </section>
-    <section class="sobre_nosotros container">
+    <section class="sobre-nosotros container">
         <div class="sobre_nosotros__contenido">
             <h2 class="sobre_nosotros__titulo">Sobre nosotros</h2>
             <p class="sobre_nosotros__texto">
@@ -76,6 +76,7 @@
             </ul>
             <p class="sobre_nosotros__texto">Desarrollamos aplicaciones para todas plataformas</p>
         </div>
+        <img src="img/sobre-apeperia.png" alt="sobre nosotros" class="sobre-nosotros__imagen">
     </section>
     <section class="planes container">
         <h2 class="planes__titulo">Planes</h2>
@@ -120,16 +121,45 @@
   
     <section class="institucional container">
         <h2 class="institucional__titulo"> Institucional</h2>
-        <p class="institucional__descripcion"> Un poco más sobre Apeperia</p>
-        <adress class="institucional__direccion">Calle Vergueiro, 3185 <br>
-            Villa Mariana, São Paulo</adress>
-       <article class="institucional__contacto">
-            <a href="tel:+55 11 55712751" class="institucional__contacto-telefono"> +55 11 55712751 
-            <a href="mailto:contato@apeperia.com" class="institucional__contacto-email">contato@apeperia.com</a>
-    </article>
-    </section>
-    <video src="img/formacion-java.mp4" class="institucional__video" controls>
+       <div class="institucional__contenido">
+        <div class="intitucional__informaciones">
+          
+            <p class="institucional__descripcion"> Un poco más sobre Apeperia</p>
+            <adress class="institucional__direccion">Calle Vergueiro, 3185 <br>
+                Villa Mariana, São Paulo</adress>
+                <article class="institucional__contacto">
+                    <a href="tel:+55 11 55712751" class="institucional__contacto-telefono"> +55 11 55712751 
+                    <a href="mailto:contato@apeperia.com" class="institucional__contacto-email">contato@apeperia.com</a>
+                </article>
+            </address>
+        </div>
+
+            <video src="img/formacion-java.mp4" class="institucional__video" controls>
+        </div>
+   
 
     </video>
+</section>
+    <footer class="footer container">
+        <img src="img/logo-apeperia.svg" alt="" class="footer__logo">
+       
+        <div class="footer__social"></div>
+            <ul class="footer__social">
+            <li><a href="#" class="footer__midia"><img src="img/facebook.png" alt="facebook"></a></li>
+            <li><a href="#" class="footer__midia"><img src="img/instagram.png" alt="facebook"></a></li>
+            <li><a href="#" class="footer__midia"><img src="img/twitter.png" alt="facebook"></a></li>
+        </ul>
+    </div>
+        <nav>
+            <ul class="footer__navegacion">
+                <li class="footer__enlace"><a href="#">Sobre </a></li>
+                <li class="footer__enlace"><a href="#">Planes </a></li>
+                <li class="footer__enlace"><a href="#">Blog </a></li>
+                <li class="footer__enlace"><a href="#">Destacados </a></li>
+                <li class="footer__enlace"><a href="#">Institucional </a></li>
+                <li class="footer__enlace"><a href="#">Contacto </a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
